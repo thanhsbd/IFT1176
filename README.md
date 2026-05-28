@@ -1,10 +1,10 @@
 # IFT1176
 
-Minimal Java 8 + VSCode-ready setup for school projects.
+Minimal Java 22 + VSCode-ready setup for school projects.
 
 ## Requirements
 
-- JDK 8
+- JDK 22
 - Maven
 - VSCode with Java Extension Pack
 
@@ -14,4 +14,4 @@ Minimal Java 8 + VSCode-ready setup for school projects.
 mvn -q compile
 ```
 
-If the command succeeds, the project compiles correctly with Java 8 settings.
+If the command succeeds, the project compiles correctly with Java 22 settings.
