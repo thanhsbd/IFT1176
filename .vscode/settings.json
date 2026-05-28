@@ -1,0 +1,12 @@
+{
+    "java.import.maven.enabled": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
