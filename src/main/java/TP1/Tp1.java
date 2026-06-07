@@ -1,8 +1,22 @@
+/*
+    IFT 1176 - TP1
+
+    Auteur: Quoc Thanh Nguyen
+    Matricule: 20353086
+
+    Classe principale qui contient la methode main.
+    Elle cree une instance de Bdd, lit les donnees des maneges depuis un fichier texte et teste les services definis dans l'interface Signature.
+*/
 package TP1;
 
-import java.io.*;
-import java.util.*;
-import javax.swing.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.List;
+
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 
 public class Tp1 {
 

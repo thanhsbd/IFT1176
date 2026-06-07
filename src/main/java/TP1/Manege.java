@@ -1,3 +1,12 @@
+/*
+    IFT 1176 - TP1
+
+    Auteur: Quoc Thanh Nguyen
+    Matricule: 20353086
+
+    Classe representant un manege caracterise par un nom, une hauteur (pieds) et une vitesse (mph).
+    Deux maneges sont consideres egaux s'ils ont le meme nom.
+*/
 package TP1;
 
 public class Manege implements Comparable<Manege> {

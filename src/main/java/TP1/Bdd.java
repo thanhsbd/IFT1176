@@ -1,10 +1,18 @@
+/*
+    IFT 1176 - TP1
+
+    Auteur: Quoc Thanh Nguyen
+    Matricule: 20353086
+
+    Ce programme permet de gerer une banque de donnees de manèges et des parcs d'attractions ou ils sont situes.
+*/
 package TP1;
 
 import java.util.*;
 
 public class Bdd implements Signature {
 
-    private Map<String, ArrayList<Manege>> manegesParOrdreAjout = new HashMap<String, ArrayList<Manege>>();
+    private Map<String, ArrayList<Manege>> manegesParOrdreAjout = new LinkedHashMap<String, ArrayList<Manege>>();
     private Map<Manege, TreeSet<String>> manegesParNom = new TreeMap<Manege, TreeSet<String>>();
 
     public void addManege(Manege m, String parc) {
