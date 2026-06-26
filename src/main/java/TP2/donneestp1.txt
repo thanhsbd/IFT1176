@@ -1,0 +1,36 @@
+Deja vu;178;65;Magic mountain
+Deja vu;178;65;Great America
+Superman ultimate flight;115;60;Great America
+Batman the ride;109;50;Magic mountain
+Batman the ride;109;50;Great America
+Batman the ride;109;50;Six Flags over Georgia
+Superman ultimate flight;115;60;Six Flags over Georgia
+Boomerang;125;50;La Ronde
+Boomerang;125;50;Darien Lake
+Boomerang;125;50;The Great Escape
+Condor;112;30;La Ronde
+Condor;112;30;The Great Escape
+Condor;112;30;Great America
+Batman the ride;109;50;Six Flags New Orleans
+Boomerang;125;50;Elitch Gardens
+Superman Ride of Steel;208;73;Darien Lake
+Batman the ride;109;50;Six Flags over Texas
+Superman Ride of Steel;208;73;Six Flags New England
+Mind Eraser;115;64;Darien Lake
+Superman Ride of Steel;208;73;Six Flags America
+SpongeBob SquarePants 3-D;3;0;Great Adventure
+Mind Eraser;115;64;Six Flags New England
+Batman the ride;109;50;Great Adventure
+Superman ultimate flight;115;60;Great Adventure
+Mind Eraser;115;64;Six Flags America
+SpongeBob SquarePants 3-D;3;0;La Ronde
+SpongeBob SquarePants 3-D;3;0;Six Flags New Orleans
+Mind Eraser;115;64;Elitch Gardens
+Boomerang;125;50;Fiesta Texas
+Superman Krypton Coaster;168;70;Fiesta Texas
+Dragon Mountain;187;50;Marineland
+Boomerang;125;50;Wild Adventures
+Test Track;65;65;Epcot
+Le Monstre;131;60;La Ronde
+Mantis;145;60;Cedar Point
+Raptor;137;57;Cedar Point
