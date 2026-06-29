@@ -9,7 +9,11 @@
 	*/
 package TP2;
 
-import java.awt.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.GridLayout;
+import java.awt.Point;
 import java.awt.event.*;
 import java.io.*;
 import java.util.*;
@@ -182,7 +186,7 @@ class FenetrePrincipale extends JFrame {
             public void itemStateChanged(ItemEvent e) {
                 if (e.getStateChange() == ItemEvent.SELECTED) {
                     String nom = (String) e.getItem();
-                    java.util.List<Manege> liste = bdd.listeDuParc(nom);
+                    List<Manege> liste = bdd.listeDuParc(nom);
                     new FenetreParc(FenetrePrincipale.this, nom, liste);
                 }
             }
@@ -267,7 +271,7 @@ class FenetreManege extends JFrame {
 class FenetreParc extends JFrame {
 
     private int indexCourant = 0;
-    private java.util.List<Manege> maneges;
+    private List<Manege> maneges;
 
     private JLabel labelNavigation;
     private JLabel labelNomValeur;
@@ -285,7 +289,7 @@ class FenetreParc extends JFrame {
      * @param nomParc       le nom du parc affiche
      * @param maneges       la liste des maneges du parc dans l'ordre d'ajout
      */
-    public FenetreParc(FenetrePrincipale parentFenetre, String nomParc, java.util.List<Manege> maneges) {
+    public FenetreParc(FenetrePrincipale parentFenetre, String nomParc, List<Manege> maneges) {
         this.maneges = maneges;
 
         // Cacher la fenetre principale pendant la navigation dans le parc
